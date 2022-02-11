@@ -57,8 +57,9 @@ function SpeakersToolbar() {
                   }}
                 />
                 <div className="input-group-append">
-                  <button className="btn btn-secondary" type="button"></button>
-                  <i className="fa fa-search"></i>
+                  <button className="btn btn-secondary" type="button">
+                    <i className="fa fa-search"></i>
+                  </button>
                 </div>
               </div>
             </li>
