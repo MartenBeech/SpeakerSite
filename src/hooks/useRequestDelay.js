@@ -43,6 +43,7 @@ function useRequestDelay(delayTime = 1000, initialData = []) {
         if (doneCallback) {
           doneCallback();
         }
+        throw "error";
       } catch (error) {
         console.log("error thrown inside delayFunction", error);
         if (doneCallback) {
